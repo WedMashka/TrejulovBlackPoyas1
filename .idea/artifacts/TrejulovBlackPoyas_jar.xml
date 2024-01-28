@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TrejulovBlackPoyas:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TrejulovBlackPoyas_jar</output-path>
+    <root id="archive" name="TrejulovBlackPoyas.jar">
+      <element id="module-output" name="TrejulovBlackPoyas" />
+    </root>
+  </artifact>
+</component>
