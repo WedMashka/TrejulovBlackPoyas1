@@ -1,4 +1,4 @@
-package lambda_expression.ex1;
+package lambda_expression.ex2;
 
 import java.util.Objects;
 
