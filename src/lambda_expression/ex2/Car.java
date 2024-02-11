@@ -2,14 +2,13 @@ package lambda_expression.ex2;
 
 import java.util.Objects;
 
-public class Car implements Comparable<Car> {
+public class Car {
     String brand;
     int age_of_manufacture;
 
     public Car(String brand, int age_of_manufacture){
         this.brand = brand;
         this.age_of_manufacture = age_of_manufacture;
-        System.out.println("create car " + brand);
     }
 
     @Override
@@ -30,12 +29,4 @@ public class Car implements Comparable<Car> {
         return Objects.hash(brand, age_of_manufacture);
     }
 
-    @Override
-    public int compareTo(Car car) {
-        if(this.age_of_manufacture == car.age_of_manufacture){
-            return this.brand.compareTo(car.brand);
-        }else {
-            return this.age_of_manufacture - car.age_of_manufacture;
-        }
-    }
 }
