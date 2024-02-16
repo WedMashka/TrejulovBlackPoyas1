@@ -16,6 +16,7 @@ public class Test {
                 ar[i][j] =j+1;
             }
             System.out.println(Arrays.toString(ar[i]));
+            System.out.println();
         }
 
 
