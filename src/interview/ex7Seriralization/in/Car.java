@@ -6,7 +6,7 @@ import java.util.Date;
 import java.util.Objects;
 
 public class Car implements Serializable {
-    private String brand;
+    transient private String brand; // при сериализации поле передастся с дефолтным значением
     private LocalDate dateManufacturer;
 
     public Car(String brand, LocalDate dateManufacturer) {
